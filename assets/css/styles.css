@@ -1,27 +1,22 @@
-/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
 :root {
-  /*========== Colors ==========*/
   --first-color: hsl(30, 16%, 50%);
   --text-color: #fff;
   --text-color-black: hsl(30, 8%, 15%);
   --body-color: hsl(30, 100%, 98%);
 
-  /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
   --h3-font-size: 1rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
 }
 
-/* Responsive typography */
 @media screen and (min-width: 1024px) {
   :root {
     --h3-font-size: 1.125rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
@@ -60,8 +55,8 @@ img {
   overflow: hidden;
 }
 
-.gallery__img, 
-.gallery__card::after, 
+.gallery__img,
+.gallery__card::after,
 .gallery__data {
   position: absolute;
 }
@@ -69,16 +64,18 @@ img {
 .gallery__img {
   inset: 0;
   margin: auto;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .gallery__card::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg,
-              hsla(0, 0%, 100%, 0) 32%,
-              hsla(0, 0%, 0%, .3) 100%);
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 100%, 0) 32%,
+    hsla(0, 0%, 0%, 0.3) 100%
+  );
   top: 0;
   z-index: 1;
 }
@@ -89,7 +86,7 @@ img {
   z-index: 10;
 }
 
-.gallery__title, 
+.gallery__title,
 .gallery__subtitle {
   color: var(--text-color);
   font-weight: 500;
@@ -116,7 +113,7 @@ img {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .gallery__thumbnail-img {
@@ -125,7 +122,7 @@ img {
   margin: auto;
 }
 
-/* Swiper class */
+/* Swiper Class */
 .gallery-cards,
 .gallery-thumbs {
   width: 260px;
@@ -143,12 +140,12 @@ img {
   height: 132px;
 }
 
-/* Active thumbnail */
+/* Active Thumbnail */
 .swiper-slide-active .gallery__thumbnail {
   transform: translateY(-1.25rem) scale(1.2);
 }
 
-/* Rotate thumbnail */
+/* Rotate Thumbnail */
 .swiper-slide-next .gallery__thumbnail {
   transform: rotate(15deg);
 }
@@ -157,7 +154,7 @@ img {
   transform: rotate(-15deg);
 }
 
-/* Sliding numbers */
+/* Sliding Numbers */
 .swiper-pagination-fraction {
   font-size: var(--small-font-size);
   letter-spacing: -1px;
@@ -166,10 +163,10 @@ img {
   bottom: 0;
 }
 
-/* Arrow buttons */
+/* Arrow Buttons */
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  content: '';
+  content: "";
 }
 
 .swiper-button-next,
@@ -189,9 +186,9 @@ img {
   transform: rotate(-15deg);
 }
 
-/* Other swiper settings */
+/* Other Swiper Settings */
 .gallery-cards::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -205,7 +202,7 @@ img {
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
+/* For Small Devices */
 @media screen and (max-width: 320px) {
   .swiper-button-next,
   .swiper-button-prev {
@@ -213,7 +210,7 @@ img {
   }
 }
 
-/* For medium devices */
+/* For Medium Devices */
 @media screen and (min-width: 1024px) {
   .gallery__card {
     width: 220px;
