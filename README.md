@@ -3,7 +3,7 @@
     <img src=".docs/preview.png" alt="Aperçu des effets de slide de cartes">  
   </a>  
   </br></br>  
-  <h3 align="center">🖼️ Image Slider - Galerie interactive</h3>  
+  <h3 align="center">⚱️ Image Slider de Vases</h3>  
 </div>
 
 ## <br /> 📌 Sommaire
