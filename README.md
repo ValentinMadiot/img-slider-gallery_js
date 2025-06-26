@@ -3,7 +3,7 @@
     <img src=".docs/preview.png" alt="Aperçu des effets de slide de cartes">  
   </a>  
   </br></br>  
-  <h3 align="center">⚱️ Image Slider de Vases</h3>  
+  <h3 align="center">⚱️ Carrousel d’images de Vases</h3>  
 </div>
 
 ## <br /> 📌 Sommaire
@@ -15,7 +15,7 @@
 
 ## <br /> <a name="introduction">🎨 Introduction</a>
 
-Ce projet présente un slider d’images interactif avec miniatures synchronisées, développé en HTML, CSS et JavaScript à l’aide de Swiper.js.
+Ce projet présente un carrousel d’images interactif avec miniatures synchronisées, développé en HTML, CSS et JavaScript à l’aide de Swiper.js.
 
 Chaque diapositive affiche une image principale accompagnée d’un titre et sous-titre, tandis que la navigation s’effectue de manière fluide via des flèches, une pagination fractionnée, ou des miniatures synchronisées.
 
@@ -32,7 +32,7 @@ Parfait pour des galeries de produits, portfolios créatifs, ou présentations i
 
 ## <br /> <a name="fonctionnalités">🎯 Fonctionnalités</a>
 
-- Slider principal avec miniatures synchronisées
+- Carrousel principal avec miniatures synchronisées
 - Navigation via flèches, miniatures ou pagination
 - Animation au survol des images
 - Transition fluide entre les slides
