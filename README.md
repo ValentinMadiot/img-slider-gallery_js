@@ -23,10 +23,10 @@ Parfait pour des galeries de produits, portfolios créatifs, ou présentations i
 
 ## <br /> <a name="technologies">🛠️ Technologies</a>
 
-- HTML5 sémantique et structuré
-- CSS3 moderne (variables, media queries, transitions)
-- JavaScript ES6 propre et modulaire
-- [Swiper.js](https://swiperjs.com/) pour un carrousel avancé avec miniatures
+- HTML5 sémantique et accessible
+- CSS3 moderne avec variables, media queries et animations
+- JavaScript ES6 clair et modulaire
+- [Swiper.js](https://swiperjs.com/) pour un carrousel fluide avec miniatures
 - Remix Icons pour les flèches et éléments visuels
 - Design 100% responsive sans framework externe
 
