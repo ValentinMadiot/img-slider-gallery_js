@@ -2,9 +2,11 @@
 // Carrousel Principal
 let swiperCards = new Swiper(".gallery-cards", {
   loop: true,
-  loopedSlides: 5,
-  cssMode: true,
   effect: "fade",
+  fadeEffect: { crossFade: true }, // Remplace cssMode
+  loopedSlides: 5,
+
+  // cssMode: true,
 });
 
 // Miniatures Synchronisées
@@ -14,7 +16,6 @@ let swiperThumbs = new Swiper(".gallery-thumbs", {
   slidesPerView: 3,
   centeredSlides: true,
   slideToClickedSlide: true,
-
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",
