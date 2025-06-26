@@ -1,11 +1,13 @@
 /*=============== SWIPER JS GALLERY ===============*/
+// Carrousel Principal
 let swiperCards = new Swiper(".gallery-cards", {
   loop: true,
   loopedSlides: 5,
   cssMode: true,
-  effect: 'fade',
+  effect: "fade",
 });
-  
+
+// Miniatures Synchronisées
 let swiperThumbs = new Swiper(".gallery-thumbs", {
   loop: true,
   loopedSlides: 5,
@@ -23,4 +25,6 @@ let swiperThumbs = new Swiper(".gallery-thumbs", {
   },
 });
 
+// Synchronisation
+swiperCards.controller.control = swiperThumbs;
 swiperThumbs.controller.control = swiperCards;
